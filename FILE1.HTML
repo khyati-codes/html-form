@@ -2,18 +2,25 @@
 <html>
     <head>
         <title> PAYMENT FORM </title>
+        <link rel="stylesheet" href="payementform.css">
 </head>
 <body>
-    < FORM ACTION ="">
-    <H1> PAYMENT FORM </H1>
-    <h2> contact information </h2>
+    <div class="container"
+    < FORM ACTION ="" method="get">
+    <H1 class="main_heading"> PAYMENT FORM </H1>
+    <hr>
+    <h2> User Information </h2>
     <p> Required Fields are followed by * </p>
-    <p> NAME: *<INPUT TYPE = "text" NAME="NAME"></p>
+    <p> NAME: *<INPUT TYPE = "text" NAME="NAME" placeholder="Khyati Jain"></p>
         <fieldset> <legend>GENDER</legend>
         <p> male <input type="radio" name="GENDER" id="gender">
-        female<input type="radio" name="GENDER" id="gender"></p>
+        female<input type="radio" name="GENDER" id="gender">
         </Fieldset>
-        <p>Address: <text area name ="Address" id="Address" cols="100" rows="10"></p>
+    </p>
+        <p>
+            Address: 
+            <input type="address" name="address"  id="Address" cols="100" rows="50"></p>
+            
             <p> E-mail: <input type="email" name="email" id="email"></p>
             <p> pincode: <input type="number" name="pincode" id="pincode"></p>
             <hr>
